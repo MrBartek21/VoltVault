@@ -60,10 +60,10 @@ Aplikacja próbuje zamontować `/mnt/VoltVault` po wykryciu karty. Konto usługi
 sudo visudo -f /etc/sudoers.d/voltvault
 ```
 
-Dodaj wpis; zamień `pi` na konto uruchamiające usługę i dopasuj ścieżkę `mount` do wyniku `command -v mount`:
+Dodaj wpis; zamień `ndn02` na konto uruchamiające usługę i dopasuj ścieżkę `mount` do wyniku `command -v mount`:
 
 ```sudoers
-pi ALL=(root) NOPASSWD: /usr/bin/mount /mnt/VoltVault, /sbin/reboot, /usr/sbin/reboot
+ndn02 ALL=(root) NOPASSWD: /usr/bin/mount /mnt/VoltVault, /sbin/reboot, /usr/sbin/reboot
 ```
 
 Sprawdź montowanie bez restartowania urządzenia:
@@ -97,7 +97,7 @@ python -m pip install --no-index --find-links wheelhouse -r requirements.txt
 
 ### Uruchamianie automatyczne po restarcie Raspberry Pi
 
-W projekcie jest jednostka systemd `deploy/voltvault.service`. Skopiuj projekt do `/home/pi/VoltVault` albo zmień w pliku `User`, `Group` i `WorkingDirectory` na właściwe konto i lokalizację. Następnie:
+W projekcie jest jednostka systemd `deploy/voltvault.service`. Skopiuj projekt do `/home/ndn02/VoltVault` albo zmień w pliku `User`, `Group` i `WorkingDirectory` na właściwe konto i lokalizację. Następnie:
 
 ```sh
 sudo cp deploy/voltvault.service /etc/systemd/system/voltvault.service
