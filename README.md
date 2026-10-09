@@ -119,12 +119,12 @@ Na Windowsie do zwykłego trybu bez emulatora (bez wirtualnej karty):
 ```powershell
 py -3 -m venv .venv
 .venv\Scripts\python.exe -m pip install -r requirements.txt
-.venv\Scripts\python.exe -m uvicorn main:app --host 0.0.0.0 --port 8000
+.venv\Scripts\python.exe -m uvicorn main:app --host 0.0.0.0 --port 8080
 ```
 
 ## Otwórz panel przez IP
 
-Gdy usługa działa, z urządzenia w tej samej sieci otwórz `http://ADRES-IP-RASPBERRY-PI:8000/`. Port 8000 musi być dozwolony w zaporze. Przykład: `http://192.168.1.50:8000/`.
+Gdy usługa działa, z urządzenia w tej samej sieci otwórz `http://ADRES-IP-RASPBERRY-PI:8080/`. Port 8080 musi być dozwolony w zaporze. Przykład: `http://192.168.1.50:8080/`.
 
 ## Zachowanie przy braku karty
 
