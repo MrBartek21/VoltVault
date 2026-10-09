@@ -16,8 +16,15 @@
   function openModal(element = null) {
     editingId = element?.id ?? null; form.reset();
     $("#modal-title").textContent = element ? "Edytuj element" : "Dodaj element";
-    if (element) for (const key of ["nazwa", "oznaczenie", "kategorie", "ilosc", "cena", "opis", "datasheet"]) {
-      const input = document.getElementById(key); if (input) input.value = element[key] ?? "";
+    if (element) {
+      const categorySelect = $("#kategorie");
+      const savedCategory = element.kategorie ?? "";
+      if (savedCategory && !Array.from(categorySelect.options).some(option => option.value === savedCategory)) {
+        categorySelect.add(new Option(savedCategory, savedCategory));
+      }
+      for (const key of ["nazwa", "oznaczenie", "kategorie", "ilosc", "cena", "opis", "datasheet"]) {
+        const input = document.getElementById(key); if (input) input.value = element[key] ?? "";
+      }
     }
     modal.classList.remove("hidden"); $("#nazwa").focus();
   }

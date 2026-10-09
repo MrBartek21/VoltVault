@@ -7,7 +7,7 @@
     "ilosc": 9,
     "datasheet": "",
     "cena": 3,
-    "opis": "Wtyk cięki"
+    "opis": "Wtyk ci\u0119ki"
   },
   "1770915017888": {
     "id": 1770915017888,
@@ -57,7 +57,7 @@
     "ilosc": 13,
     "datasheet": "",
     "cena": 2.9,
-    "opis": "THT Płaski"
+    "opis": "THT P\u0142aski"
   },
   "1770915631635": {
     "id": 1770915631635,
@@ -87,7 +87,7 @@
     "ilosc": 1,
     "datasheet": "",
     "cena": 2,
-    "opis": "Na przewód"
+    "opis": "Na przew\u00f3d"
   },
   "1770915921011": {
     "id": 1770915921011,
@@ -172,12 +172,12 @@
   "1770917102605": {
     "id": 1770917102605,
     "nazwa": "Gniazdo",
-    "oznaczenie": "ARK 2x małe",
+    "oznaczenie": "ARK 2x ma\u0142e",
     "kategorie": "gniazda",
     "ilosc": 3,
     "datasheet": "",
     "cena": 0,
-    "opis": "Przykręcane"
+    "opis": "Przykr\u0119cane"
   },
   "1770917186353": {
     "id": 1770917186353,
@@ -191,7 +191,7 @@
   },
   "1770919525299": {
     "id": 1770919525299,
-    "nazwa": "Gałka",
+    "nazwa": "Ga\u0142ka",
     "oznaczenie": "Zielona wysoka",
     "kategorie": "elementy_montazowe",
     "ilosc": 4,
@@ -201,8 +201,8 @@
   },
   "1770919585583": {
     "id": 1770919585583,
-    "nazwa": "Gałka",
-    "oznaczenie": "Pomarańczowa niska",
+    "nazwa": "Ga\u0142ka",
+    "oznaczenie": "Pomara\u0144czowa niska",
     "kategorie": "elementy_montazowe",
     "ilosc": 3,
     "datasheet": "",
@@ -211,7 +211,7 @@
   },
   "1770919659193": {
     "id": 1770919659193,
-    "nazwa": "Gałka",
+    "nazwa": "Ga\u0142ka",
     "oznaczenie": "Czerwona niska",
     "kategorie": "elementy_montazowe",
     "ilosc": 2,
@@ -221,8 +221,8 @@
   },
   "1770919683455": {
     "id": 1770919683455,
-    "nazwa": "Gałka",
-    "oznaczenie": " Żółta niska",
+    "nazwa": "Ga\u0142ka",
+    "oznaczenie": " \u017b\u00f3\u0142ta niska",
     "kategorie": "elementy_montazowe",
     "ilosc": 3,
     "datasheet": "",
@@ -231,7 +231,7 @@
   },
   "1770919700222": {
     "id": 1770919700222,
-    "nazwa": "Gałka",
+    "nazwa": "Ga\u0142ka",
     "oznaczenie": "Czerwona wysoka",
     "kategorie": "elementy_montazowe",
     "ilosc": 2,
@@ -281,7 +281,7 @@
   },
   "1770920222325": {
     "id": 1770920222325,
-    "nazwa": "Przełącznik",
+    "nazwa": "Prze\u0142\u0105cznik",
     "oznaczenie": "DIP x4",
     "kategorie": "przelaczniki",
     "ilosc": 5,
@@ -291,7 +291,7 @@
   },
   "1770920247563": {
     "id": 1770920247563,
-    "nazwa": "Przełącznik",
+    "nazwa": "Prze\u0142\u0105cznik",
     "oznaczenie": "DIP x5",
     "kategorie": "przelaczniki",
     "ilosc": 1,
@@ -301,8 +301,8 @@
   },
   "1770920312264": {
     "id": 1770920312264,
-    "nazwa": "Przełącznik",
-    "oznaczenie": "DC mały",
+    "nazwa": "Prze\u0142\u0105cznik",
+    "oznaczenie": "DC ma\u0142y",
     "kategorie": "przelaczniki",
     "ilosc": 4,
     "datasheet": "",
@@ -311,8 +311,8 @@
   },
   "1770920344093": {
     "id": 1770920344093,
-    "nazwa": "Przełącznik",
-    "oznaczenie": "DC duży",
+    "nazwa": "Prze\u0142\u0105cznik",
+    "oznaczenie": "DC du\u017cy",
     "kategorie": "przelaczniki",
     "ilosc": 4,
     "datasheet": "",
@@ -321,8 +321,8 @@
   },
   "1770920441834": {
     "id": 1770920441834,
-    "nazwa": "Przełącznik",
-    "oznaczenie": "DC duży dwupozycyjny",
+    "nazwa": "Prze\u0142\u0105cznik",
+    "oznaczenie": "DC du\u017cy dwupozycyjny",
     "kategorie": "przelaczniki",
     "ilosc": 1,
     "datasheet": "",
@@ -332,7 +332,7 @@
   "1770920539396": {
     "id": 1770920539396,
     "nazwa": "Przycisk",
-    "oznaczenie": "Tact switch duży",
+    "oznaczenie": "Tact switch du\u017cy",
     "kategorie": "przyciski",
     "ilosc": 8,
     "datasheet": "",
@@ -342,7 +342,7 @@
   "1770920597726": {
     "id": 1770920597726,
     "nazwa": "Przycisk",
-    "oznaczenie": "Tact switch mały",
+    "oznaczenie": "Tact switch ma\u0142y",
     "kategorie": "przyciski",
     "ilosc": 5,
     "datasheet": "",
@@ -352,7 +352,7 @@
   "1770920735807": {
     "id": 1770920735807,
     "nazwa": "Przycisk",
-    "oznaczenie": "Microswitch mały",
+    "oznaczenie": "Microswitch ma\u0142y",
     "kategorie": "przyciski",
     "ilosc": 9,
     "datasheet": "",
@@ -362,17 +362,17 @@
   "1770920759092": {
     "id": 1770920759092,
     "nazwa": "Przycisk",
-    "oznaczenie": "krańcowy",
+    "oznaczenie": "kra\u0144cowy",
     "kategorie": "przyciski",
     "ilosc": 2,
     "datasheet": "",
     "cena": 0,
-    "opis": "Z dźwignią"
+    "opis": "Z d\u017awigni\u0105"
   },
   "1770920919122": {
     "id": 1770920919122,
     "nazwa": "Przycisk",
-    "oznaczenie": "Okrągły z LED, płaski",
+    "oznaczenie": "Okr\u0105g\u0142y z LED, p\u0142aski",
     "kategorie": "przyciski",
     "ilosc": 3,
     "datasheet": "",
@@ -382,7 +382,7 @@
   "1770920961987": {
     "id": 1770920961987,
     "nazwa": "Przycisk",
-    "oznaczenie": "Okrągły z LED, wystający",
+    "oznaczenie": "Okr\u0105g\u0142y z LED, wystaj\u0105cy",
     "kategorie": "przyciski",
     "ilosc": 1,
     "datasheet": "",
@@ -391,18 +391,18 @@
   },
   "1770921009229": {
     "id": 1770921009229,
-    "nazwa": "Przełącznik",
-    "oznaczenie": "DC duży płaski",
+    "nazwa": "Prze\u0142\u0105cznik",
+    "oznaczenie": "DC du\u017cy p\u0142aski",
     "kategorie": "przelaczniki",
     "ilosc": 2,
     "datasheet": "",
     "cena": 0,
-    "opis": "Do głośnika"
+    "opis": "Do g\u0142o\u015bnika"
   },
   "1770921051207": {
     "id": 1770921051207,
-    "nazwa": "Przełącznik",
-    "oznaczenie": "DC duży okrągły",
+    "nazwa": "Prze\u0142\u0105cznik",
+    "oznaczenie": "DC du\u017cy okr\u0105g\u0142y",
     "kategorie": "przelaczniki",
     "ilosc": 1,
     "datasheet": "",
@@ -421,8 +421,8 @@
   },
   "1770921132161": {
     "id": 1770921132161,
-    "nazwa": "Przełącznik",
-    "oznaczenie": "DC okrągły",
+    "nazwa": "Prze\u0142\u0105cznik",
+    "oznaczenie": "DC okr\u0105g\u0142y",
     "kategorie": "przelaczniki",
     "ilosc": 1,
     "datasheet": "",
@@ -431,8 +431,8 @@
   },
   "1770921199617": {
     "id": 1770921199617,
-    "nazwa": "Przełącznik",
-    "oznaczenie": "Przesuwny mały",
+    "nazwa": "Prze\u0142\u0105cznik",
+    "oznaczenie": "Przesuwny ma\u0142y",
     "kategorie": "przelaczniki",
     "ilosc": 1,
     "datasheet": "",
@@ -452,7 +452,7 @@
   "1770921641471": {
     "id": 1770921641471,
     "nazwa": "Dioda LED",
-    "oznaczenie": "Żółta 5mm",
+    "oznaczenie": "\u017b\u00f3\u0142ta 5mm",
     "kategorie": "dioda_led",
     "ilosc": 15,
     "datasheet": "",
@@ -487,12 +487,12 @@
     "ilosc": 6,
     "datasheet": "",
     "cena": 0,
-    "opis": "Wspólna katoda"
+    "opis": "Wsp\u00f3lna katoda"
   },
   "1770922129072": {
     "id": 1770922129072,
-    "nazwa": "Żarówka LED",
-    "oznaczenie": "Żarówka płaska",
+    "nazwa": "\u017bar\u00f3wka LED",
+    "oznaczenie": "\u017bar\u00f3wka p\u0142aska",
     "kategorie": "dioda_led",
     "ilosc": 1,
     "datasheet": "",
@@ -501,8 +501,8 @@
   },
   "1770922159701": {
     "id": 1770922159701,
-    "nazwa": "Żarówka LED",
-    "oznaczenie": "Żarówka okrągła",
+    "nazwa": "\u017bar\u00f3wka LED",
+    "oznaczenie": "\u017bar\u00f3wka okr\u0105g\u0142a",
     "kategorie": "dioda_led",
     "ilosc": 1,
     "datasheet": "",
@@ -511,8 +511,8 @@
   },
   "1770922222778": {
     "id": 1770922222778,
-    "nazwa": "Moduł LED",
-    "oznaczenie": "Okrągły 12V",
+    "nazwa": "Modu\u0142 LED",
+    "oznaczenie": "Okr\u0105g\u0142y 12V",
     "kategorie": "dioda_led",
     "ilosc": 1,
     "datasheet": "",
@@ -521,8 +521,8 @@
   },
   "1770922245903": {
     "id": 1770922245903,
-    "nazwa": "Moduł LED",
-    "oznaczenie": "Prostokątny 12V",
+    "nazwa": "Modu\u0142 LED",
+    "oznaczenie": "Prostok\u0105tny 12V",
     "kategorie": "dioda_led",
     "ilosc": 1,
     "datasheet": "",
@@ -531,8 +531,8 @@
   },
   "1770922263671": {
     "id": 1770922263671,
-    "nazwa": "Moduł LED",
-    "oznaczenie": "Okrągły 5V",
+    "nazwa": "Modu\u0142 LED",
+    "oznaczenie": "Okr\u0105g\u0142y 5V",
     "kategorie": "dioda_led",
     "ilosc": 1,
     "datasheet": "",
@@ -541,8 +541,8 @@
   },
   "1770922316001": {
     "id": 1770922316001,
-    "nazwa": "Moduł LED",
-    "oznaczenie": "RGB Ciepły Biały 5V",
+    "nazwa": "Modu\u0142 LED",
+    "oznaczenie": "RGB Ciep\u0142y Bia\u0142y 5V",
     "kategorie": "dioda_led",
     "ilosc": 1,
     "datasheet": "",
@@ -562,7 +562,7 @@
   "1770924322591": {
     "id": 1770924322591,
     "nazwa": "Dioda LED",
-    "oznaczenie": "Przezroczysta biała 5mm",
+    "oznaczenie": "Przezroczysta bia\u0142a 5mm",
     "kategorie": "dioda_led",
     "ilosc": 18,
     "datasheet": "",
@@ -697,7 +697,7 @@
     "ilosc": 4,
     "datasheet": "",
     "cena": 0,
-    "opis": "Mały"
+    "opis": "Ma\u0142y"
   },
   "1770931235255": {
     "id": 1770931235255,
@@ -707,7 +707,7 @@
     "ilosc": 2,
     "datasheet": "",
     "cena": 0,
-    "opis": "Duży"
+    "opis": "Du\u017cy"
   },
   "1770931534065": {
     "id": 1770931534065,
@@ -1041,7 +1041,7 @@
   },
   "1770934997943": {
     "id": 1770934997943,
-    "nazwa": "Przekaźnik",
+    "nazwa": "Przeka\u017anik",
     "oznaczenie": "JRC-27F/012-H(033)(555)",
     "kategorie": "przekazniki",
     "ilosc": 3,
@@ -1051,7 +1051,7 @@
   },
   "1770935034439": {
     "id": 1770935034439,
-    "nazwa": "Przekaźnik",
+    "nazwa": "Przeka\u017anik",
     "oznaczenie": "JRC-27F/012-H(555)(101)",
     "kategorie": "przekazniki",
     "ilosc": 3,
@@ -1061,7 +1061,7 @@
   },
   "1770935075995": {
     "id": 1770935075995,
-    "nazwa": "Przekaźnik",
+    "nazwa": "Przeka\u017anik",
     "oznaczenie": "RY12W-K",
     "kategorie": "przekazniki",
     "ilosc": 3,
@@ -1071,7 +1071,7 @@
   },
   "1770935128869": {
     "id": 1770935128869,
-    "nazwa": "Przekaźnik",
+    "nazwa": "Przeka\u017anik",
     "oznaczenie": "RZHH-1A4-D012",
     "kategorie": "przekazniki",
     "ilosc": 2,
@@ -1081,7 +1081,7 @@
   },
   "1770935168160": {
     "id": 1770935168160,
-    "nazwa": "Przekaźnik",
+    "nazwa": "Przeka\u017anik",
     "oznaczenie": "JS1-12V-H12",
     "kategorie": "przekazniki",
     "ilosc": 2,
@@ -1091,7 +1091,7 @@
   },
   "1770935399023": {
     "id": 1770935399023,
-    "nazwa": "Przekaźnik",
+    "nazwa": "Przeka\u017anik",
     "oznaczenie": "JZC-32F 005-ZS(551)",
     "kategorie": "przekazniki",
     "ilosc": 1,
@@ -1101,7 +1101,7 @@
   },
   "1770935433531": {
     "id": 1770935433531,
-    "nazwa": "Przekaźnik",
+    "nazwa": "Przeka\u017anik",
     "oznaczenie": "HFD27/005-S",
     "kategorie": "przekazniki",
     "ilosc": 1,
@@ -1111,7 +1111,7 @@
   },
   "1770935468580": {
     "id": 1770935468580,
-    "nazwa": "Przekaźnik",
+    "nazwa": "Przeka\u017anik",
     "oznaczenie": "RE-105DM1",
     "kategorie": "przekazniki",
     "ilosc": 1,
@@ -1121,7 +1121,7 @@
   },
   "1770935526500": {
     "id": 1770935526500,
-    "nazwa": "Przekaźnik",
+    "nazwa": "Przeka\u017anik",
     "oznaczenie": "G5NB-1A-E",
     "kategorie": "przekazniki",
     "ilosc": 1,
@@ -1131,7 +1131,7 @@
   },
   "1770935559412": {
     "id": 1770935559412,
-    "nazwa": "Przekaźnik",
+    "nazwa": "Przeka\u017anik",
     "oznaczenie": "BJ-SS-112DM",
     "kategorie": "przekazniki",
     "ilosc": 1,
@@ -1141,7 +1141,7 @@
   },
   "1770935602335": {
     "id": 1770935602335,
-    "nazwa": "Przekaźnik",
+    "nazwa": "Przeka\u017anik",
     "oznaczenie": "HF152F 012-1ZT(410)",
     "kategorie": "przekazniki",
     "ilosc": 1,
@@ -1151,7 +1151,7 @@
   },
   "1770935637561": {
     "id": 1770935637561,
-    "nazwa": "Przekaźnik",
+    "nazwa": "Przeka\u017anik",
     "oznaczenie": "HF3FA 012-HTF(335)",
     "kategorie": "przekazniki",
     "ilosc": 1,
@@ -1161,7 +1161,7 @@
   },
   "1771100978587": {
     "id": 1771100978587,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "ATMEGA8A-PU",
     "kategorie": "mikrokontrolery",
     "ilosc": 1,
@@ -1171,7 +1171,7 @@
   },
   "1771101027113": {
     "id": 1771101027113,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "ATTINY2313A",
     "kategorie": "mikrokontrolery",
     "ilosc": 1,
@@ -1181,7 +1181,7 @@
   },
   "1771101049260": {
     "id": 1771101049260,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "TDA2822M",
     "kategorie": "mikrokontrolery",
     "ilosc": 1,
@@ -1191,7 +1191,7 @@
   },
   "1771101084338": {
     "id": 1771101084338,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "SN74HC595N",
     "kategorie": "mikrokontrolery",
     "ilosc": 1,
@@ -1201,7 +1201,7 @@
   },
   "1771101102569": {
     "id": 1771101102569,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "CD4052BE",
     "kategorie": "mikrokontrolery",
     "ilosc": 1,
@@ -1211,7 +1211,7 @@
   },
   "1771101125431": {
     "id": 1771101125431,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "W55F10A",
     "kategorie": "mikrokontrolery",
     "ilosc": 1,
@@ -1221,7 +1221,7 @@
   },
   "1771101148431": {
     "id": 1771101148431,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "PCF8582A",
     "kategorie": "mikrokontrolery",
     "ilosc": 2,
@@ -1231,7 +1231,7 @@
   },
   "1771101170727": {
     "id": 1771101170727,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "TL072CN",
     "kategorie": "mikrokontrolery",
     "ilosc": 1,
@@ -1241,7 +1241,7 @@
   },
   "1771101186758": {
     "id": 1771101186758,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "PCF8574N",
     "kategorie": "mikrokontrolery",
     "ilosc": 2,
@@ -1251,7 +1251,7 @@
   },
   "1771101215195": {
     "id": 1771101215195,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "TDA7052B",
     "kategorie": "mikrokontrolery",
     "ilosc": 1,
@@ -1261,7 +1261,7 @@
   },
   "1771101231903": {
     "id": 1771101231903,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "LM393N",
     "kategorie": "mikrokontrolery",
     "ilosc": 1,
@@ -1271,7 +1271,7 @@
   },
   "1771101268765": {
     "id": 1771101268765,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "Winbond W49F002U12BN",
     "kategorie": "mikrokontrolery",
     "ilosc": 1,
@@ -1281,7 +1281,7 @@
   },
   "1771101335473": {
     "id": 1771101335473,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "TMP36GZ",
     "kategorie": "mikrokontrolery",
     "ilosc": 1,
@@ -1341,7 +1341,7 @@
   },
   "1771101715607": {
     "id": 1771101715607,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "CH340C",
     "kategorie": "mikrokontrolery",
     "ilosc": 5,
@@ -1351,7 +1351,7 @@
   },
   "1771101750069": {
     "id": 1771101750069,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "MCP3008-I",
     "kategorie": "mikrokontrolery",
     "ilosc": 1,
@@ -1361,7 +1361,7 @@
   },
   "1771101784864": {
     "id": 1771101784864,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "CD4026BE",
     "kategorie": "mikrokontrolery",
     "ilosc": 2,
@@ -1371,7 +1371,7 @@
   },
   "1771101869137": {
     "id": 1771101869137,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "L293D",
     "kategorie": "mikrokontrolery",
     "ilosc": 2,
@@ -1381,7 +1381,7 @@
   },
   "1771101885684": {
     "id": 1771101885684,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "L293DNE",
     "kategorie": "mikrokontrolery",
     "ilosc": 1,
@@ -1391,7 +1391,7 @@
   },
   "1771101902016": {
     "id": 1771101902016,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "CD4017BE",
     "kategorie": "mikrokontrolery",
     "ilosc": 1,
@@ -1401,7 +1401,7 @@
   },
   "1771101926803": {
     "id": 1771101926803,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "SN74HCT08N",
     "kategorie": "mikrokontrolery",
     "ilosc": 1,
@@ -1411,7 +1411,7 @@
   },
   "1771101972606": {
     "id": 1771101972606,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "LM393P",
     "kategorie": "mikrokontrolery",
     "ilosc": 1,
@@ -1421,7 +1421,7 @@
   },
   "1771102027814": {
     "id": 1771102027814,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "LM386",
     "kategorie": "mikrokontrolery",
     "ilosc": 2,
@@ -1431,7 +1431,7 @@
   },
   "1771102063028": {
     "id": 1771102063028,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "MC34063AL",
     "kategorie": "mikrokontrolery",
     "ilosc": 1,
@@ -1441,7 +1441,7 @@
   },
   "1771102084657": {
     "id": 1771102084657,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "LM311P",
     "kategorie": "mikrokontrolery",
     "ilosc": 1,
@@ -1451,7 +1451,7 @@
   },
   "1771102158598": {
     "id": 1771102158598,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "WT751002S",
     "kategorie": "mikrokontrolery",
     "ilosc": 1,
@@ -1561,18 +1561,18 @@
   },
   "1771103186362": {
     "id": 1771103186362,
-    "nazwa": "Płytka prototypowa",
-    "oznaczenie": "duża",
+    "nazwa": "P\u0142ytka prototypowa",
+    "oznaczenie": "du\u017ca",
     "kategorie": "inne",
     "ilosc": 1,
     "datasheet": "",
     "cena": 0,
-    "opis": "Biała z zasilaniem"
+    "opis": "Bia\u0142a z zasilaniem"
   },
   "1771103207862": {
     "id": 1771103207862,
-    "nazwa": "Płytka prototypowa",
-    "oznaczenie": "mała",
+    "nazwa": "P\u0142ytka prototypowa",
+    "oznaczenie": "ma\u0142a",
     "kategorie": "inne",
     "ilosc": 3,
     "datasheet": "",
@@ -1601,7 +1601,7 @@
   },
   "1771103699531": {
     "id": 1771103699531,
-    "nazwa": "Moduł ładowarki",
+    "nazwa": "Modu\u0142 \u0142adowarki",
     "oznaczenie": "LI-ION 4056E",
     "kategorie": "przetwornice",
     "ilosc": 1,
@@ -1611,23 +1611,23 @@
   },
   "1771103763076": {
     "id": 1771103763076,
-    "nazwa": "Moduł ładowarki",
+    "nazwa": "Modu\u0142 \u0142adowarki",
     "oznaczenie": "LI-ION FM9688AA",
     "kategorie": "przetwornice",
     "ilosc": 1,
     "datasheet": "",
     "cena": 0,
-    "opis": "Z wyjściem 5V"
+    "opis": "Z wyj\u015bciem 5V"
   },
   "1771103803339": {
     "id": 1771103803339,
-    "nazwa": "Moduł powerbank",
+    "nazwa": "Modu\u0142 powerbank",
     "oznaczenie": "IP5310",
     "kategorie": "przetwornice",
     "ilosc": 1,
     "datasheet": "",
     "cena": 0,
-    "opis": "USB C Ładowanie/ 2xUSB A Wyjście"
+    "opis": "USB C \u0141adowanie/ 2xUSB A Wyj\u015bcie"
   },
   "1771104368235": {
     "id": 1771104368235,
@@ -1667,7 +1667,7 @@
     "ilosc": 3,
     "datasheet": "",
     "cena": 0,
-    "opis": "Podwójna dioda Schottky"
+    "opis": "Podw\u00f3jna dioda Schottky"
   },
   "1771104880252": {
     "id": 1771104880252,
@@ -1687,7 +1687,7 @@
     "ilosc": 1,
     "datasheet": "",
     "cena": 0,
-    "opis": "Podwójna dioda Schottky"
+    "opis": "Podw\u00f3jna dioda Schottky"
   },
   "1771105461761": {
     "id": 1771105461761,
@@ -1712,7 +1712,7 @@
   "1771105931916": {
     "id": 1771105931916,
     "nazwa": "Radiator",
-    "oznaczenie": "pojedynczy mały",
+    "oznaczenie": "pojedynczy ma\u0142y",
     "kategorie": "radiatory",
     "ilosc": 4,
     "datasheet": "",
@@ -1722,7 +1722,7 @@
   "1771105962461": {
     "id": 1771105962461,
     "nazwa": "Radiator",
-    "oznaczenie": "pojedynczy mały płaski",
+    "oznaczenie": "pojedynczy ma\u0142y p\u0142aski",
     "kategorie": "radiatory",
     "ilosc": 2,
     "datasheet": "",
@@ -1732,7 +1732,7 @@
   "1771105992174": {
     "id": 1771105992174,
     "nazwa": "Radiator",
-    "oznaczenie": "pojedynczy duży",
+    "oznaczenie": "pojedynczy du\u017cy",
     "kategorie": "radiatory",
     "ilosc": 1,
     "datasheet": "",
@@ -1742,7 +1742,7 @@
   "1771106022336": {
     "id": 1771106022336,
     "nazwa": "Radiator",
-    "oznaczenie": "podwójny mały płaski",
+    "oznaczenie": "podw\u00f3jny ma\u0142y p\u0142aski",
     "kategorie": "radiatory",
     "ilosc": 1,
     "datasheet": "",
@@ -1752,7 +1752,7 @@
   "1771106095327": {
     "id": 1771106095327,
     "nazwa": "Radiator",
-    "oznaczenie": "poczwórny płaski",
+    "oznaczenie": "poczw\u00f3rny p\u0142aski",
     "kategorie": "radiatory",
     "ilosc": 1,
     "datasheet": "",
@@ -1871,13 +1871,13 @@
   },
   "1771107220646": {
     "id": 1771107220646,
-    "nazwa": "Taśma",
-    "oznaczenie": "gąbkowa dwustronna",
+    "nazwa": "Ta\u015bma",
+    "oznaczenie": "g\u0105bkowa dwustronna",
     "kategorie": "inne",
     "ilosc": 2,
     "datasheet": "",
     "cena": 0,
-    "opis": "prostokąt 20mm/40mm"
+    "opis": "prostok\u0105t 20mm/40mm"
   },
   "1771107263624": {
     "id": 1771107263624,
@@ -1891,7 +1891,7 @@
   },
   "1771107325117": {
     "id": 1771107325117,
-    "nazwa": "Pasta termoprzewodząca",
+    "nazwa": "Pasta termoprzewodz\u0105ca",
     "oznaczenie": "GD900",
     "kategorie": "inne",
     "ilosc": 1,
@@ -1901,7 +1901,7 @@
   },
   "1771107376328": {
     "id": 1771107376328,
-    "nazwa": "Pasta termoprzewodząca",
+    "nazwa": "Pasta termoprzewodz\u0105ca",
     "oznaczenie": "Pactum PT-2",
     "kategorie": "inne",
     "ilosc": 1,
@@ -1911,7 +1911,7 @@
   },
   "1771107409055": {
     "id": 1771107409055,
-    "nazwa": "Pasta termoprzewodząca",
+    "nazwa": "Pasta termoprzewodz\u0105ca",
     "oznaczenie": "Silikonowa H",
     "kategorie": "inne",
     "ilosc": 1,
@@ -1941,7 +1941,7 @@
   },
   "1771107613579": {
     "id": 1771107613579,
-    "nazwa": "Tester serwomechanizmów",
+    "nazwa": "Tester serwomechanizm\u00f3w",
     "oznaczenie": "CCPM Servo Consistency Master",
     "kategorie": "inne",
     "ilosc": 1,
@@ -1951,7 +1951,7 @@
   },
   "1771165337057": {
     "id": 1771165337057,
-    "nazwa": "Moduł",
+    "nazwa": "Modu\u0142",
     "oznaczenie": "Nadajnik FS1000A",
     "kategorie": "moduly",
     "ilosc": 3,
@@ -1961,7 +1961,7 @@
   },
   "1771165361735": {
     "id": 1771165361735,
-    "nazwa": "Moduł",
+    "nazwa": "Modu\u0142",
     "oznaczenie": "Odbiornik MX-RM-5V",
     "kategorie": "moduly",
     "ilosc": 1,
@@ -1971,7 +1971,7 @@
   },
   "1771165402630": {
     "id": 1771165402630,
-    "nazwa": "Moduł",
+    "nazwa": "Modu\u0142",
     "oznaczenie": "ESP8266",
     "kategorie": "esp8266",
     "ilosc": 1,
@@ -1981,17 +1981,17 @@
   },
   "1771165591123": {
     "id": 1771165591123,
-    "nazwa": "Moduł",
+    "nazwa": "Modu\u0142",
     "oznaczenie": "NRF24L01 PA+ LNA",
     "kategorie": "moduly",
     "ilosc": 2,
     "datasheet": "",
     "cena": 0,
-    "opis": "Ze wzmacniaczem sygnału do 1.1km zasięgu"
+    "opis": "Ze wzmacniaczem sygna\u0142u do 1.1km zasi\u0119gu"
   },
   "1771165648938": {
     "id": 1771165648938,
-    "nazwa": "Moduł",
+    "nazwa": "Modu\u0142",
     "oznaczenie": "NRF24L01",
     "kategorie": "moduly",
     "ilosc": 3,
@@ -2012,28 +2012,28 @@
   "1771165867905": {
     "id": 1771165867905,
     "nazwa": "Klej",
-    "oznaczenie": "Na gorąco",
+    "oznaczenie": "Na gor\u0105co",
     "kategorie": "inne",
     "ilosc": 26,
     "datasheet": "",
     "cena": 0,
-    "opis": "Kawałki małe"
+    "opis": "Kawa\u0142ki ma\u0142e"
   },
   "1771165892427": {
     "id": 1771165892427,
     "nazwa": "Zapalniczka",
-    "oznaczenie": "Do kleju na gorąco",
+    "oznaczenie": "Do kleju na gor\u0105co",
     "kategorie": "inne",
     "ilosc": 1,
     "datasheet": "",
     "cena": 0,
-    "opis": "Biało czerwona"
+    "opis": "Bia\u0142o czerwona"
   },
   "1771166010531": {
     "id": 1771166010531,
-    "nazwa": "Płytka PCB",
+    "nazwa": "P\u0142ytka PCB",
     "oznaczenie": "WeatherLink 2023.08.31",
-    "kategorie": "płytki_pcb",
+    "kategorie": "p\u0139\u201aytki_pcb",
     "ilosc": 3,
     "datasheet": "",
     "cena": 0,
@@ -2041,9 +2041,9 @@
   },
   "1771166083072": {
     "id": 1771166083072,
-    "nazwa": "Płytka PCB",
+    "nazwa": "P\u0142ytka PCB",
     "oznaczenie": "PSTM/LCM 2305v1",
-    "kategorie": "płytki_pcb",
+    "kategorie": "p\u0139\u201aytki_pcb",
     "ilosc": 3,
     "datasheet": "",
     "cena": 0,
@@ -2051,9 +2051,9 @@
   },
   "1771166194788": {
     "id": 1771166194788,
-    "nazwa": "Płytka PCB",
+    "nazwa": "P\u0142ytka PCB",
     "oznaczenie": "CarLinkv1 2023.08.31",
-    "kategorie": "płytki_pcb",
+    "kategorie": "p\u0139\u201aytki_pcb",
     "ilosc": 4,
     "datasheet": "",
     "cena": 0,
@@ -2061,19 +2061,19 @@
   },
   "1771166251004": {
     "id": 1771166251004,
-    "nazwa": "Płytka PCB",
+    "nazwa": "P\u0142ytka PCB",
     "oznaczenie": "RJ45 x8 Conn",
-    "kategorie": "płytki_pcb",
+    "kategorie": "p\u0139\u201aytki_pcb",
     "ilosc": 1,
     "datasheet": "",
     "cena": 0,
-    "opis": "Łączy 8 wyjść razem"
+    "opis": "\u0141\u0105czy 8 wyj\u015b\u0107 razem"
   },
   "1771166324970": {
     "id": 1771166324970,
-    "nazwa": "Płytka PCB",
+    "nazwa": "P\u0142ytka PCB",
     "oznaczenie": "Modul Expander HA",
-    "kategorie": "płytki_pcb",
+    "kategorie": "p\u0139\u201aytki_pcb",
     "ilosc": 8,
     "datasheet": "",
     "cena": 0,
@@ -2081,9 +2081,9 @@
   },
   "1771166413482": {
     "id": 1771166413482,
-    "nazwa": "Płytka PCB",
+    "nazwa": "P\u0142ytka PCB",
     "oznaczenie": "Modul K1 HA",
-    "kategorie": "płytki_pcb",
+    "kategorie": "p\u0139\u201aytki_pcb",
     "ilosc": 20,
     "datasheet": "",
     "cena": 0,
@@ -2097,7 +2097,7 @@
     "ilosc": 1,
     "datasheet": "",
     "cena": 0,
-    "opis": "Biała"
+    "opis": "Bia\u0142a"
   },
   "1771166544327": {
     "id": 1771166544327,
@@ -2121,7 +2121,7 @@
   },
   "1771166638748": {
     "id": 1771166638748,
-    "nazwa": "Moduł",
+    "nazwa": "Modu\u0142",
     "oznaczenie": "BMS 3S 12V 25A",
     "kategorie": "zasilacze",
     "ilosc": 1,
@@ -2141,7 +2141,7 @@
   },
   "1771166724428": {
     "id": 1771166724428,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "TDA2009A",
     "kategorie": "op_amp",
     "ilosc": 1,
@@ -2151,38 +2151,38 @@
   },
   "1771166773681": {
     "id": 1771166773681,
-    "nazwa": "Panel słoneczny",
+    "nazwa": "Panel s\u0142oneczny",
     "oznaczenie": "PCB-5555 GREENWAY",
     "kategorie": "zasilacze",
     "ilosc": 1,
     "datasheet": "",
     "cena": 0,
-    "opis": "Kwadrat duży"
+    "opis": "Kwadrat du\u017cy"
   },
   "1771166837649": {
     "id": 1771166837649,
-    "nazwa": "Panel słoneczny",
+    "nazwa": "Panel s\u0142oneczny",
     "oznaczenie": "YYSOLAR 79x29",
     "kategorie": "zasilacze",
     "ilosc": 1,
     "datasheet": "",
     "cena": 0,
-    "opis": "Prostokąt mały"
+    "opis": "Prostok\u0105t ma\u0142y"
   },
   "1771166857462": {
     "id": 1771166857462,
-    "nazwa": "Panel słoneczny",
+    "nazwa": "Panel s\u0142oneczny",
     "oznaczenie": "NONAME",
     "kategorie": "zasilacze",
     "ilosc": 1,
     "datasheet": "",
     "cena": 0,
-    "opis": "Kwadrat mały"
+    "opis": "Kwadrat ma\u0142y"
   },
   "1771167709346": {
     "id": 1771167709346,
-    "nazwa": "Moduł",
-    "oznaczenie": "Kolorofon 3 kanały MONO",
+    "nazwa": "Modu\u0142",
+    "oznaczenie": "Kolorofon 3 kana\u0142y MONO",
     "kategorie": "inne",
     "ilosc": 1,
     "datasheet": "",
@@ -2191,7 +2191,7 @@
   },
   "1771167742553": {
     "id": 1771167742553,
-    "nazwa": "Moduł",
+    "nazwa": "Modu\u0142",
     "oznaczenie": "Filtr Audio Bass",
     "kategorie": "inne",
     "ilosc": 1,
@@ -2211,7 +2211,7 @@
   },
   "1771167931430": {
     "id": 1771167931430,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "AtTiny13a",
     "kategorie": "mikrokontrolery",
     "ilosc": 1,
@@ -2221,7 +2221,7 @@
   },
   "1771167975707": {
     "id": 1771167975707,
-    "nazwa": "Moduł",
+    "nazwa": "Modu\u0142",
     "oznaczenie": "Soft Latch",
     "kategorie": "moduly",
     "ilosc": 1,
@@ -2231,8 +2231,8 @@
   },
   "1771168019713": {
     "id": 1771168019713,
-    "nazwa": "Moduł",
-    "oznaczenie": "Ściemniacz 12V LM317",
+    "nazwa": "Modu\u0142",
+    "oznaczenie": "\u015aciemniacz 12V LM317",
     "kategorie": "moduly",
     "ilosc": 1,
     "datasheet": "",
@@ -2241,8 +2241,8 @@
   },
   "1771168169579": {
     "id": 1771168169579,
-    "nazwa": "Przewód",
-    "oznaczenie": "Prototypowy męski",
+    "nazwa": "Przew\u00f3d",
+    "oznaczenie": "Prototypowy m\u0119ski",
     "kategorie": "kable_przewody",
     "ilosc": 33,
     "datasheet": "",
@@ -2251,8 +2251,8 @@
   },
   "1771168305173": {
     "id": 1771168305173,
-    "nazwa": "Przewód",
-    "oznaczenie": "Prototypowy żeński",
+    "nazwa": "Przew\u00f3d",
+    "oznaczenie": "Prototypowy \u017ce\u0144ski",
     "kategorie": "kable_przewody",
     "ilosc": 37,
     "datasheet": "",
@@ -2261,8 +2261,8 @@
   },
   "1771168365707": {
     "id": 1771168365707,
-    "nazwa": "Nózki",
-    "oznaczenie": "Czarne duże",
+    "nazwa": "N\u00f3zki",
+    "oznaczenie": "Czarne du\u017ce",
     "kategorie": "inne",
     "ilosc": 4,
     "datasheet": "",
@@ -2271,8 +2271,8 @@
   },
   "1771168388408": {
     "id": 1771168388408,
-    "nazwa": "Nózki",
-    "oznaczenie": "Przezroczyste małe",
+    "nazwa": "N\u00f3zki",
+    "oznaczenie": "Przezroczyste ma\u0142e",
     "kategorie": "inne",
     "ilosc": 8,
     "datasheet": "",
@@ -2282,7 +2282,7 @@
   "1771168583284": {
     "id": 1771168583284,
     "nazwa": "Mikrofon",
-    "oznaczenie": "Pojemnościowy",
+    "oznaczenie": "Pojemno\u015bciowy",
     "kategorie": "inne",
     "ilosc": 5,
     "datasheet": "",
@@ -2321,17 +2321,17 @@
   },
   "1771168853158": {
     "id": 1771168853158,
-    "nazwa": "Wyświetlacz 7seg",
+    "nazwa": "Wy\u015bwietlacz 7seg",
     "oznaczenie": "SC52-11GWA",
     "kategorie": "inne",
     "ilosc": 2,
     "datasheet": "",
     "cena": 0,
-    "opis": "Jedna cyfra z kropką"
+    "opis": "Jedna cyfra z kropk\u0105"
   },
   "1771168899967": {
     "id": 1771168899967,
-    "nazwa": "Wyświetlacz 7seg",
+    "nazwa": "Wy\u015bwietlacz 7seg",
     "oznaczenie": "SP42170701R1-U1",
     "kategorie": "inne",
     "ilosc": 1,
@@ -2341,7 +2341,7 @@
   },
   "1771168940862": {
     "id": 1771168940862,
-    "nazwa": "Wyświetlacz 7seg",
+    "nazwa": "Wy\u015bwietlacz 7seg",
     "oznaczenie": "XD P7.3 SM2205611D7A",
     "kategorie": "inne",
     "ilosc": 2,
@@ -2351,7 +2351,7 @@
   },
   "1771169004900": {
     "id": 1771169004900,
-    "nazwa": "Wyświetlacz 7seg",
+    "nazwa": "Wy\u015bwietlacz 7seg",
     "oznaczenie": "YD5631AR",
     "kategorie": "inne",
     "ilosc": 1,
@@ -2361,7 +2361,7 @@
   },
   "1771169055906": {
     "id": 1771169055906,
-    "nazwa": "Wyświetlacz 7seg",
+    "nazwa": "Wy\u015bwietlacz 7seg",
     "oznaczenie": "XD P7.3 SM425611D7A",
     "kategorie": "inne",
     "ilosc": 1,
@@ -2372,7 +2372,7 @@
   "1771169237724": {
     "id": 1771169237724,
     "nazwa": "Zestaw",
-    "oznaczenie": "Złącza wentylatorowe 2p-5p",
+    "oznaczenie": "Z\u0142\u0105cza wentylatorowe 2p-5p",
     "kategorie": "konektory",
     "ilosc": 1,
     "datasheet": "",
@@ -2382,8 +2382,8 @@
   "1771169305763": {
     "id": 1771169305763,
     "nazwa": "Zestaw",
-    "oznaczenie": "Śrub/nakrętek/dystansów M2",
-    "kategorie": "śruby_nakrętki",
+    "oznaczenie": "\u015arub/nakr\u0119tek/dystans\u00f3w M2",
+    "kategorie": "\u0139\u203aruby_nakr\u00c4\u2122tki",
     "ilosc": 1,
     "datasheet": "",
     "cena": 0,
@@ -2392,7 +2392,7 @@
   "1771169348987": {
     "id": 1771169348987,
     "nazwa": "Zestaw",
-    "oznaczenie": "Złącza precyzyjne 2p-5p",
+    "oznaczenie": "Z\u0142\u0105cza precyzyjne 2p-5p",
     "kategorie": "konektory",
     "ilosc": 1,
     "datasheet": "",
@@ -2412,12 +2412,12 @@
   "1771169455267": {
     "id": 1771169455267,
     "nazwa": "Marker",
-    "oznaczenie": "Biały Mungyo Paint Marker",
+    "oznaczenie": "Bia\u0142y Mungyo Paint Marker",
     "kategorie": "inne",
     "ilosc": 1,
     "datasheet": "",
     "cena": 0,
-    "opis": "Z pompką"
+    "opis": "Z pompk\u0105"
   },
   "1771169496411": {
     "id": 1771169496411,
@@ -2431,8 +2431,8 @@
   },
   "1771169522523": {
     "id": 1771169522523,
-    "nazwa": "Pęseta",
-    "oznaczenie": "Płaska długa",
+    "nazwa": "P\u0119seta",
+    "oznaczenie": "P\u0142aska d\u0142uga",
     "kategorie": "inne",
     "ilosc": 1,
     "datasheet": "",
@@ -2441,7 +2441,7 @@
   },
   "1771169541555": {
     "id": 1771169541555,
-    "nazwa": "Taśma",
+    "nazwa": "Ta\u015bma",
     "oznaczenie": "Izolacyjna czarna",
     "kategorie": "inne",
     "ilosc": 1,
@@ -2451,18 +2451,18 @@
   },
   "1771169569950": {
     "id": 1771169569950,
-    "nazwa": "Śrubokręt",
-    "oznaczenie": "Krzyżak precyzyjny",
+    "nazwa": "\u015arubokr\u0119t",
+    "oznaczenie": "Krzy\u017cak precyzyjny",
     "kategorie": "inne",
     "ilosc": 1,
     "datasheet": "",
     "cena": 0,
-    "opis": "Mały"
+    "opis": "Ma\u0142y"
   },
   "1771169768596": {
     "id": 1771169768596,
-    "nazwa": "Złącza",
-    "oznaczenie": "Goldpin żeńskie 40/2 czarne",
+    "nazwa": "Z\u0142\u0105cza",
+    "oznaczenie": "Goldpin \u017ce\u0144skie 40/2 czarne",
     "kategorie": "konektory",
     "ilosc": 5,
     "datasheet": "",
@@ -2471,8 +2471,8 @@
   },
   "1771170028200": {
     "id": 1771170028200,
-    "nazwa": "Złącza",
-    "oznaczenie": "Goldpin męskie czarne",
+    "nazwa": "Z\u0142\u0105cza",
+    "oznaczenie": "Goldpin m\u0119skie czarne",
     "kategorie": "konektory",
     "ilosc": 218,
     "datasheet": "",
@@ -2481,8 +2481,8 @@
   },
   "1771170173656": {
     "id": 1771170173656,
-    "nazwa": "Złącza",
-    "oznaczenie": "Goldpin męskie czerwone",
+    "nazwa": "Z\u0142\u0105cza",
+    "oznaczenie": "Goldpin m\u0119skie czerwone",
     "kategorie": "konektory",
     "ilosc": 195,
     "datasheet": "",
@@ -2491,8 +2491,8 @@
   },
   "1771170234130": {
     "id": 1771170234130,
-    "nazwa": "Złącza",
-    "oznaczenie": "Goldpin męskie zielone",
+    "nazwa": "Z\u0142\u0105cza",
+    "oznaczenie": "Goldpin m\u0119skie zielone",
     "kategorie": "konektory",
     "ilosc": 155,
     "datasheet": "",
@@ -2501,8 +2501,8 @@
   },
   "1771170312384": {
     "id": 1771170312384,
-    "nazwa": "Złącza",
-    "oznaczenie": "Goldpin męskie białe",
+    "nazwa": "Z\u0142\u0105cza",
+    "oznaczenie": "Goldpin m\u0119skie bia\u0142e",
     "kategorie": "konektory",
     "ilosc": 194,
     "datasheet": "",
@@ -2511,8 +2511,8 @@
   },
   "1771170369425": {
     "id": 1771170369425,
-    "nazwa": "Złącza",
-    "oznaczenie": "Goldpin męskie niebieskie",
+    "nazwa": "Z\u0142\u0105cza",
+    "oznaczenie": "Goldpin m\u0119skie niebieskie",
     "kategorie": "konektory",
     "ilosc": 197,
     "datasheet": "",
@@ -2521,8 +2521,8 @@
   },
   "1771170463110": {
     "id": 1771170463110,
-    "nazwa": "Złącza",
-    "oznaczenie": "Goldpin męskie żółte",
+    "nazwa": "Z\u0142\u0105cza",
+    "oznaczenie": "Goldpin m\u0119skie \u017c\u00f3\u0142te",
     "kategorie": "konektory",
     "ilosc": 215,
     "datasheet": "",
@@ -2531,7 +2531,7 @@
   },
   "1771170537450": {
     "id": 1771170537450,
-    "nazwa": "Złącza",
+    "nazwa": "Z\u0142\u0105cza",
     "oznaczenie": "Goldpin zworka",
     "kategorie": "konektory",
     "ilosc": 9,
@@ -2541,8 +2541,8 @@
   },
   "1771171118780": {
     "id": 1771171118780,
-    "nazwa": "Złącza",
-    "oznaczenie": "Goldpin żeńskie osłonka 6x1",
+    "nazwa": "Z\u0142\u0105cza",
+    "oznaczenie": "Goldpin \u017ce\u0144skie os\u0142onka 6x1",
     "kategorie": "konektory",
     "ilosc": 5,
     "datasheet": "",
@@ -2551,8 +2551,8 @@
   },
   "1771171150875": {
     "id": 1771171150875,
-    "nazwa": "Złącza",
-    "oznaczenie": "Goldpin żeńskie osłonka 1x1",
+    "nazwa": "Z\u0142\u0105cza",
+    "oznaczenie": "Goldpin \u017ce\u0144skie os\u0142onka 1x1",
     "kategorie": "konektory",
     "ilosc": 4,
     "datasheet": "",
@@ -2561,8 +2561,8 @@
   },
   "1771171168605": {
     "id": 1771171168605,
-    "nazwa": "Złącza",
-    "oznaczenie": "Goldpin żeńskie osłonka 2x1",
+    "nazwa": "Z\u0142\u0105cza",
+    "oznaczenie": "Goldpin \u017ce\u0144skie os\u0142onka 2x1",
     "kategorie": "konektory",
     "ilosc": 1,
     "datasheet": "",
@@ -2571,8 +2571,8 @@
   },
   "1771171190669": {
     "id": 1771171190669,
-    "nazwa": "Złącza",
-    "oznaczenie": "Goldpin żeńskie osłonka 4x1",
+    "nazwa": "Z\u0142\u0105cza",
+    "oznaczenie": "Goldpin \u017ce\u0144skie os\u0142onka 4x1",
     "kategorie": "konektory",
     "ilosc": 1,
     "datasheet": "",
@@ -2581,8 +2581,8 @@
   },
   "1771171213016": {
     "id": 1771171213016,
-    "nazwa": "Złącza",
-    "oznaczenie": "Goldpin żeńskie osłonka 8x1",
+    "nazwa": "Z\u0142\u0105cza",
+    "oznaczenie": "Goldpin \u017ce\u0144skie os\u0142onka 8x1",
     "kategorie": "konektory",
     "ilosc": 1,
     "datasheet": "",
@@ -2591,28 +2591,28 @@
   },
   "1771171256459": {
     "id": 1771171256459,
-    "nazwa": "Złącza",
-    "oznaczenie": "Goldpin żeńskie osłonka 5x2",
+    "nazwa": "Z\u0142\u0105cza",
+    "oznaczenie": "Goldpin \u017ce\u0144skie os\u0142onka 5x2",
     "kategorie": "konektory",
     "ilosc": 1,
     "datasheet": "",
     "cena": 0,
-    "opis": "Z blokadą odwrotnego podłączenia"
+    "opis": "Z blokad\u0105 odwrotnego pod\u0142\u0105czenia"
   },
   "1771171281156": {
     "id": 1771171281156,
-    "nazwa": "Złącza",
-    "oznaczenie": "Goldpin żeńskie osłonka 4x2",
+    "nazwa": "Z\u0142\u0105cza",
+    "oznaczenie": "Goldpin \u017ce\u0144skie os\u0142onka 4x2",
     "kategorie": "konektory",
     "ilosc": 1,
     "datasheet": "",
     "cena": 0,
-    "opis": "Z blokadą odwrotnego podłączenia"
+    "opis": "Z blokad\u0105 odwrotnego pod\u0142\u0105czenia"
   },
   "1771171329513": {
     "id": 1771171329513,
-    "nazwa": "Złącza",
-    "oznaczenie": "Goldpin męskie kątowe 1x2",
+    "nazwa": "Z\u0142\u0105cza",
+    "oznaczenie": "Goldpin m\u0119skie k\u0105towe 1x2",
     "kategorie": "konektory",
     "ilosc": 15,
     "datasheet": "",
@@ -2621,8 +2621,8 @@
   },
   "1771171361525": {
     "id": 1771171361525,
-    "nazwa": "Złącza",
-    "oznaczenie": "Goldpin żeńskie na przewód",
+    "nazwa": "Z\u0142\u0105cza",
+    "oznaczenie": "Goldpin \u017ce\u0144skie na przew\u00f3d",
     "kategorie": "konektory",
     "ilosc": 2,
     "datasheet": "",
@@ -3021,7 +3021,7 @@
   },
   "1775849606080": {
     "id": 1775849606080,
-    "nazwa": "Przekaźnik",
+    "nazwa": "Przeka\u017anik",
     "oznaczenie": "HF3FA 024-ZTF(335)",
     "kategorie": "przekazniki",
     "ilosc": 3,
@@ -3031,7 +3031,7 @@
   },
   "1775849835241": {
     "id": 1775849835241,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "LM17",
     "kategorie": "przetwornice",
     "ilosc": 1,
@@ -3051,7 +3051,7 @@
   },
   "1775938280457": {
     "id": 1775938280457,
-    "nazwa": "Przekaźnik",
+    "nazwa": "Przeka\u017anik",
     "oznaczenie": "T78-SH-DC5V-A",
     "kategorie": "przekazniki",
     "ilosc": 1,
@@ -3062,7 +3062,7 @@
   "1775938363914": {
     "id": 1775938363914,
     "nazwa": "Przycisk",
-    "oznaczenie": "Tact switch mały SMD",
+    "oznaczenie": "Tact switch ma\u0142y SMD",
     "kategorie": "przyciski",
     "ilosc": 2,
     "datasheet": "",
@@ -3072,7 +3072,7 @@
   "1775938391930": {
     "id": 1775938391930,
     "nazwa": "Przycisk",
-    "oznaczenie": "Tact switch płaski SMD",
+    "oznaczenie": "Tact switch p\u0142aski SMD",
     "kategorie": "przyciski",
     "ilosc": 2,
     "datasheet": "",
@@ -3101,7 +3101,7 @@
   },
   "1776023415059": {
     "id": 1776023415059,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "MX25L4005A",
     "kategorie": "memory",
     "ilosc": 1,
@@ -3111,7 +3111,7 @@
   },
   "1776023499847": {
     "id": 1776023499847,
-    "nazwa": "Układ",
+    "nazwa": "Uk\u0142ad",
     "oznaczenie": "74ACT08",
     "kategorie": "inne",
     "ilosc": 1,
@@ -3141,7 +3141,7 @@
   },
   "1777198540319": {
     "id": 1777198540319,
-    "nazwa": "Podkładka termoprzewodząca",
+    "nazwa": "Podk\u0142adka termoprzewodz\u0105ca",
     "oznaczenie": "Na radiaor",
     "kategorie": "radiatory",
     "ilosc": 4,
