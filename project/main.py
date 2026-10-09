@@ -5,6 +5,7 @@ import os
 import shutil
 import subprocess
 import time
+import psutil
 from pathlib import Path
 from fastapi import FastAPI, Request, UploadFile, File, HTTPException
 from fastapi.responses import HTMLResponse, FileResponse
@@ -15,7 +16,6 @@ from sd_manager import SDManager, APP_NAME, CARD_LABEL, CARD_UUID
 
 BASE_DIR = Path(__file__).resolve().parent
 MOUNT_PATH = Path("/mnt") / APP_NAME
-#IMAGE_DIR = sd.mount_point / "images"
 SD_POLL_SECONDS = 2
 RESTART_DELAY_SECONDS = int(os.environ.get("VOLTVAULT_RESTART_DELAY", os.environ.get("ELEKTROMAGAZYN_RESTART_DELAY", "30")))
 
@@ -110,6 +110,44 @@ async def inventory_page(request: Request):
     if status["ready"] and (inserted_at is None or (reboot_started and not restart_error)):
         return templates.TemplateResponse(request=request, name="elements.html", context={"app_name": APP_NAME, "emulator": EMULATOR})
     return templates.TemplateResponse(request=request, name="sd_missing.html", context={"app_name": APP_NAME, "mount_path": str(sd.mount_point), "emulator": EMULATOR, "card_label": CARD_LABEL, "card_uuid": CARD_UUID})
+
+
+@app.get("/system/metrics")
+async def system_metrics():
+    """Return host, storage, and network counters for the local dashboard."""
+    memory = psutil.virtual_memory()
+    system_root = (os.environ.get("SystemDrive", "C:") + os.sep) if os.name == "nt" else "/"
+    system_disk = psutil.disk_usage(system_root)
+    card_status = sd.status()
+    card_disk = None
+    if card_status["ready"]:
+        try:
+            usage = psutil.disk_usage(str(sd.mount_point))
+            card_disk = {"total": usage.total, "used": usage.used, "free": usage.free, "percent": usage.percent}
+        except OSError:
+            card_status["ready"] = False
+    counters = psutil.net_io_counters(pernic=True) or {}
+    interface_states = psutil.net_if_stats()
+    interfaces = []
+    for name, counter in counters.items():
+        normalized = name.casefold()
+        state = interface_states.get(name)
+        if normalized in {"lo", "loopback pseudo-interface 1"} or (state and not state.isup):
+            continue
+        interfaces.append({"name": name, "sent_mb": counter.bytes_sent / 1_000_000, "received_mb": counter.bytes_recv / 1_000_000})
+    return {
+        "cpu_percent": psutil.cpu_percent(interval=None),
+        "memory": {"total": memory.total, "used": memory.used, "available": memory.available, "percent": memory.percent},
+        "system_disk": {"path": system_root, "total": system_disk.total, "used": system_disk.used, "free": system_disk.free, "percent": system_disk.percent},
+        "sd_card": card_disk,
+        "sd_status": {"ready": card_status["ready"], "emulator": EMULATOR, "mount_path": str(sd.mount_point)},
+        "network": {
+            "sent_mb": sum(item["sent_mb"] for item in interfaces),
+            "received_mb": sum(item["received_mb"] for item in interfaces),
+            "interfaces": interfaces,
+        },
+        "updated_at": time.time(),
+    }
 
 @app.get("/system/status")
 async def system_status():

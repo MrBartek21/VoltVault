@@ -8,7 +8,8 @@ if not exist .venv\Scripts\python.exe (
   py -3 -m venv .venv
   if errorlevel 1 goto :python_error
 )
-if not exist .venv\Scripts\uvicorn.exe (
+.venv\Scripts\python.exe -c "import fastapi, uvicorn, psutil, jinja2, multipart" >nul 2>&1
+if errorlevel 1 (
   if exist wheelhouse (
     echo Instalowanie zaleznosci z lokalnego wheelhouse...
     .venv\Scripts\python.exe -m pip install --no-index --find-links wheelhouse -r requirements.txt
@@ -24,6 +25,7 @@ echo Wirtualna karta i dane: %CD%\emulator_sd
 echo Adres panelu: http://127.0.0.1:8000/
 echo Zamknij to okno lub wcisnij Ctrl+C, aby zatrzymac emulator.
 echo.
+timeout /t 2 /nobreak >nul
 start "" http://127.0.0.1:8000/
 .venv\Scripts\python.exe -m uvicorn main:app --host 127.0.0.1 --port 8000
 pause
