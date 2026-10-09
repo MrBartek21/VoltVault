@@ -1,20 +1,167 @@
 <!doctype html>
-<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#101820"><title>{{ app_name }} | Magazyn elektroniki</title><link rel="stylesheet" href="/static/style.css"></head>
-<body><div class="app-shell">
-<aside class="sidebar"><a class="brand" href="/"><span class="brand-mark">E</span><span>VOLT<span class="brand-light">VAULT</span></span></a><div class="side-label">ZARZĄDZANIE</div><a class="nav-item active" href="/"><span>▦</span> Wszystkie elementy</a><div class="sidebar-note"><span class="pulse-dot"></span> Baza lokalna<br><small>Dane zapisują się na tym urządzeniu</small></div></aside>
-<main class="main-content"><header class="page-header"><div><div class="eyebrow">PANEL MAGAZYNOWY</div><h1>Magazyn elektroniki</h1><p class="subtitle">Przeglądaj i kontroluj stan swoich komponentów.</p></div><div class="header-buttons">{% if emulator %}<span class="emulator-badge">EMULATOR WINDOWS</span><button id="emulator-restart" class="btn secondary" type="button">Symuluj restart</button><button id="emulator-reset" class="btn secondary" type="button">Wyczyść dane testowe</button><button id="emulator-remove" class="btn secondary" type="button">Wyjmij kartę</button>{% endif %}<button id="add-element" class="btn primary"><span>＋</span> Dodaj element</button></div></header>
-<section class="stats-grid"><article class="stat-card"><div class="stat-icon blue">▤</div><div><div class="stat-label">Łącznie sztuk</div><div class="stat-value" id="total-quantity">0</div><div class="stat-hint">wszystkie pozycje</div></div></article><article class="stat-card"><div class="stat-icon violet">◈</div><div><div class="stat-label">Różne elementy</div><div class="stat-value" id="unique-count">0</div><div class="stat-hint">unikalne pozycje</div></div></article><article class="stat-card"><div class="stat-icon amber">⚑</div><div><div class="stat-label">Kończą się</div><div class="stat-value" id="low-count">0</div><div class="stat-hint">stan 5 szt. lub mniej</div></div></article></section>
-<section class="system-panel" aria-labelledby="system-heading">
-<div class="system-heading"><div><h2 id="system-heading">Stan systemu</h2><p>Parametry urządzenia i transfer od uruchomienia</p></div><div class="system-live"><span class="system-live-dot"></span><span id="system-state">Odczytuję dane…</span></div></div>
-<div class="system-grid">
-<article class="system-card"><div class="system-card-head"><span class="system-icon cpu-icon">CPU</span><span class="system-label">Procesor</span></div><div class="system-number" id="cpu-value">—</div><div class="meter"><span id="cpu-meter"></span></div><div class="system-hint">bieżące użycie procesora</div></article>
-<article class="system-card"><div class="system-card-head"><span class="system-icon ram-icon">RAM</span><span class="system-label">Pamięć RAM</span></div><div class="system-number" id="ram-value">—</div><div class="meter"><span id="ram-meter"></span></div><div class="system-hint" id="ram-hint">użycie pamięci</div></article>
-<article class="system-card"><div class="system-card-head"><span class="system-icon sd-icon">SD</span><span class="system-label">Karta SD</span></div><div class="system-number" id="sd-value">—</div><div class="meter"><span id="sd-meter"></span></div><div class="system-hint" id="sd-hint">zajęte miejsce</div></article>
-<article class="system-card"><div class="system-card-head"><span class="system-icon disk-icon">SYS</span><span class="system-label">Dysk systemowy</span></div><div class="system-number" id="system-disk-value">—</div><div class="meter"><span id="system-disk-meter"></span></div><div class="system-hint" id="system-disk-hint">zajęte miejsce</div></article>
-<article class="system-card network-card"><div class="system-card-head"><span class="system-icon net-icon">↕</span><span class="system-label">Transfer sieciowy</span><span class="network-period">od uruchomienia systemu</span></div><div class="network-values"><div><span class="network-arrow sent">↑</span><span class="network-caption">Wysłano</span><strong id="network-sent">—</strong><small>MB</small></div><div><span class="network-arrow received">↓</span><span class="network-caption">Pobrano</span><strong id="network-received">—</strong><small>MB</small></div></div><div class="system-hint" id="network-interfaces">Odczytuję karty sieciowe…</div></article>
-</div></section>
-<section class="inventory-panel"><div class="panel-heading"><div><h2>Elementy</h2><p id="result-count">Pełna lista magazynowa</p></div><div class="table-tools"><label class="search-box"><span>⌕</span><input id="search" type="search" placeholder="Szukaj elementu…" aria-label="Szukaj elementu"></label><select id="category-filter" aria-label="Filtruj kategorię"><option value="">Wszystkie kategorie</option></select></div></div>
-<div class="table-wrap"><table id="elements-table"><thead><tr><th>ELEMENT</th><th>OZNACZENIE</th><th>KATEGORIA</th><th>ILOŚĆ</th><th>CENA</th><th>OPIS</th><th></th></tr></thead><tbody></tbody></table><div id="empty-state" class="empty-state hidden"><div class="empty-icon">▤</div><h3>Brak elementów</h3><p>Dodaj pierwsze komponenty do swojego magazynu.</p><button class="btn primary" id="empty-add">Dodaj pierwszy element</button></div></div></section>
-<footer class="footer">Magazyn działa lokalnie <span>•</span> Twoje dane pozostają na tym urządzeniu</footer></main></div>
-<div id="element-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title"><div class="modal-content"><div class="modal-header"><div><div class="eyebrow">KARTA MAGAZYNOWA</div><h2 id="modal-title">Dodaj element</h2></div><button class="close-btn" type="button" aria-label="Zamknij">×</button></div><form id="element-form" class="form-grid"><label>Nazwa<input id="nazwa" required maxlength="120" placeholder="np. Rezystor 10 kΩ"></label><label>Oznaczenie<input id="oznaczenie" required maxlength="80" placeholder="np. 10K 0.25W"></label><label>Kategoria<select id="kategorie" required><option value="">Wybierz kategorię</option><option value="Rezystory">Rezystory</option><option value="Kondensatory">Kondensatory</option><option value="Diody">Diody</option><option value="Tranzystory">Tranzystory</option><option value="Układy scalone">Układy scalone</option><option value="Czujniki">Czujniki</option><option value="Moduły i płytki">Moduły i płytki</option><option value="Zasilanie">Zasilanie</option><option value="Przewody i złącza">Przewody i złącza</option><option value="Inne">Inne</option></select></label><label>Ilość<input id="ilosc" type="number" value="1" min="0" step="1" required></label><label>Cena za sztukę (zł)<input id="cena" type="number" min="0" step="0.01" placeholder="0,00"></label><label class="full">Opis<input id="opis" maxlength="300" placeholder="Dodatkowe informacje (opcjonalnie)"></label><label class="full">Link do datasheetu<input id="datasheet" type="url" placeholder="https://… (opcjonalnie)"></label><div class="modal-actions full"><button class="btn secondary" type="button" id="cancel-modal">Anuluj</button><button class="btn primary" type="submit">Zapisz element</button></div></form></div></div><div id="toast" class="toast" role="status"></div>
-<script src="/static/elements.js"></script><script src="/static/system-metrics.js"></script>{% if emulator %}<script src="/static/emulator.js"></script>{% endif %}</body></html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#101820">
+		<title>{{ app_name }} | Magazyn elektroniki</title>
+		<link rel="stylesheet" href="/static/style.css">
+	</head>
+	<body>
+		<div class="app-shell">
+			<aside class="sidebar"><a class="brand" href="/"><span class="brand-mark">V</span><span>VOLT<span class="brand-light">VAULT</span></span></a>
+				<div class="side-label">ZARZĄDZANIE</div>
+                    <a class="nav-item active" href="/"><span>▦</span> Wszystkie elementy</a>
+			</aside>
+
+			<main class="main-content">
+				<header class="page-header">
+					<div>
+						<div class="eyebrow">PANEL MAGAZYNOWY</div>
+						<h1>Magazyn elektroniki</h1>
+						<p class="subtitle">Przeglądaj i kontroluj stan swoich komponentów.</p>
+					</div>
+					<div class="header-buttons">{% if emulator %}<span class="emulator-badge">EMULATOR WINDOWS</span><button id="emulator-restart" class="btn secondary" type="button">Symuluj restart</button><button id="emulator-reset" class="btn secondary" type="button">Wyczyść dane testowe</button><button id="emulator-remove" class="btn secondary" type="button">Wyjmij kartę</button>{% endif %}<button id="add-element" class="btn primary"><span>＋</span> Dodaj element</button></div>
+				</header>
+
+				<section class="stats-grid">
+					<article class="stat-card">
+						<div class="stat-icon blue">▤</div>
+						<div>
+							<div class="stat-label">Łącznie sztuk</div>
+							<div class="stat-value" id="total-quantity">0</div>
+							<div class="stat-hint">wszystkie pozycje</div>
+						</div>
+					</article>
+					<article class="stat-card">
+						<div class="stat-icon violet">◈</div>
+						<div>
+							<div class="stat-label">Różne elementy</div>
+							<div class="stat-value" id="unique-count">0</div>
+							<div class="stat-hint">unikalne pozycje</div>
+						</div>
+					</article>
+					<article class="stat-card">
+						<div class="stat-icon amber">⚑</div>
+						<div>
+							<div class="stat-label">Kończą się</div>
+							<div class="stat-value" id="low-count">0</div>
+							<div class="stat-hint">stan 5 szt. lub mniej</div>
+						</div>
+					</article>
+				</section>
+
+				<section class="system-panel" aria-labelledby="system-heading">
+					<div class="system-heading">
+						<div>
+							<h2 id="system-heading">Stan systemu</h2>
+							<p>Parametry urządzenia i transfer od uruchomienia</p>
+						</div>
+						<div class="system-live"><span class="system-live-dot"></span><span id="system-state">Odczytuję dane…</span></div>
+					</div>
+					<div class="system-grid">
+						<article class="system-card">
+							<div class="system-card-head"><span class="system-icon cpu-icon">CPU</span><span class="system-label">Procesor</span></div>
+							<div class="system-number" id="cpu-value">—</div>
+							<div class="meter"><span id="cpu-meter"></span></div>
+							<div class="system-hint">bieżące użycie procesora</div>
+						</article>
+						<article class="system-card">
+							<div class="system-card-head"><span class="system-icon ram-icon">RAM</span><span class="system-label">Pamięć RAM</span></div>
+							<div class="system-number" id="ram-value">—</div>
+							<div class="meter"><span id="ram-meter"></span></div>
+							<div class="system-hint" id="ram-hint">użycie pamięci</div>
+						</article>
+						<article class="system-card">
+							<div class="system-card-head"><span class="system-icon sd-icon">SD</span><span class="system-label">Karta SD</span></div>
+							<div class="system-number" id="sd-value">—</div>
+							<div class="meter"><span id="sd-meter"></span></div>
+							<div class="system-hint" id="sd-hint">zajęte miejsce</div>
+						</article>
+						<article class="system-card">
+							<div class="system-card-head"><span class="system-icon disk-icon">SYS</span><span class="system-label">Dysk systemowy</span></div>
+							<div class="system-number" id="system-disk-value">—</div>
+							<div class="meter"><span id="system-disk-meter"></span></div>
+							<div class="system-hint" id="system-disk-hint">zajęte miejsce</div>
+						</article>
+						<article class="system-card">
+							<div class="system-card-head"><span class="system-icon net-icon">↕</span><span class="system-label">Transfer sieciowy</span></div>
+							<div class="network-values">
+								<div><span class="network-caption">Wysłano</span><strong id="network-sent">—</strong><small>MB</small></div>
+								<div><span class="network-caption">Pobrano</span><strong id="network-received">—</strong><small>MB</small></div>
+							</div>
+							<!--<div class="system-hint" id="network-interfaces">Odczytuję karty sieciowe…</div>-->
+						</article>
+					</div>
+				</section>
+
+				<section class="inventory-panel">
+					<div class="panel-heading">
+						<div>
+							<h2>Elementy</h2>
+							<p id="result-count">Pełna lista magazynowa</p>
+						</div>
+						<div class="table-tools"><label class="search-box"><span>⌕</span><input id="search" type="search" placeholder="Szukaj elementu…" aria-label="Szukaj elementu"></label><select id="category-filter" aria-label="Filtruj kategorię">
+								<option value="">Wszystkie kategorie</option>
+							</select></div>
+					</div>
+					<div class="table-wrap">
+						<table id="elements-table">
+							<thead>
+								<tr>
+									<th>ELEMENT</th>
+									<th>OZNACZENIE</th>
+									<th>KATEGORIA</th>
+									<th>ILOŚĆ</th>
+									<th>CENA</th>
+									<th>OPIS</th>
+									<th></th>
+								</tr>
+							</thead>
+							<tbody></tbody>
+						</table>
+						<div id="empty-state" class="empty-state hidden">
+							<div class="empty-icon">▤</div>
+							<h3>Brak elementów</h3>
+							<p>Dodaj pierwsze komponenty do swojego magazynu.</p><button class="btn primary" id="empty-add">Dodaj pierwszy element</button>
+						</div>
+					</div>
+				</section>
+				<footer class="footer">Magazyn działa lokalnie <span>•</span> Twoje dane pozostają na tym urządzeniu</footer>
+			</main>
+		</div>
+
+		<div id="element-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div>
+						<div class="eyebrow">KARTA MAGAZYNOWA</div>
+						<h2 id="modal-title">Dodaj element</h2>
+					</div><button class="close-btn" type="button" aria-label="Zamknij">×</button>
+				</div>
+				<form id="element-form" class="form-grid"><label>Nazwa<input id="nazwa" required maxlength="120" placeholder="np. Rezystor 10 kΩ"></label><label>Oznaczenie<input id="oznaczenie" required maxlength="80" placeholder="np. 10K 0.25W"></label><label>Kategoria<select id="kategorie" required>
+							<option value="">Wybierz kategorię</option>
+							<option value="Rezystory">Rezystory</option>
+							<option value="Kondensatory">Kondensatory</option>
+							<option value="Diody">Diody</option>
+							<option value="Tranzystory">Tranzystory</option>
+							<option value="Układy scalone">Układy scalone</option>
+							<option value="Czujniki">Czujniki</option>
+							<option value="Moduły i płytki">Moduły i płytki</option>
+							<option value="Zasilanie">Zasilanie</option>
+							<option value="Przewody i złącza">Przewody i złącza</option>
+							<option value="Inne">Inne</option>
+						</select></label><label>Ilość<input id="ilosc" type="number" value="1" min="0" step="1" required></label><label>Cena za sztukę (zł)<input id="cena" type="number" min="0" step="0.01" placeholder="0,00"></label><label class="full">Opis<input id="opis" maxlength="300" placeholder="Dodatkowe informacje (opcjonalnie)"></label><label class="full">Link do datasheetu<input id="datasheet" type="url" placeholder="https://… (opcjonalnie)"></label>
+					<div class="modal-actions full"><button class="btn secondary" type="button" id="cancel-modal">Anuluj</button><button class="btn primary" type="submit">Zapisz element</button></div>
+				</form>
+			</div>
+		</div>
+
+
+		<div id="toast" class="toast" role="status"></div>
+
+
+		<script src="/static/elements.js"></script>
+		<script src="/static/system-metrics.js"></script>{% if emulator %}<script src="/static/emulator.js"></script>{% endif %}
+	</body>
+</html>

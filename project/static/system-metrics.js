@@ -31,9 +31,6 @@
       $("system-disk-hint").textContent = `${disk.percent.toFixed(1)}% zajęte · wolne ${formatBytes(disk.free)} · ${disk.path}`; setMeter("system-disk-meter", disk.percent);
       $("network-sent").textContent = formatMegabytes(data.network.sent_mb);
       $("network-received").textContent = formatMegabytes(data.network.received_mb);
-      $("network-interfaces").textContent = data.network.interfaces.length
-        ? data.network.interfaces.map(item => `${item.name}: ↑ ${formatMegabytes(item.sent_mb)} MB · ↓ ${formatMegabytes(item.received_mb)} MB`).join("  |  ")
-        : "Brak aktywnych kart sieciowych";
       $("system-state").textContent = data.sd_status.ready ? "System działa · karta dostępna" : "Brak karty SD";
     } catch (_) { $("system-state").textContent = "Nie można odczytać parametrów"; }
   }
